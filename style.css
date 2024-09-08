@@ -14,24 +14,24 @@
 header {
     background-color: black;
     color: white;
-    padding: 45px;
     text-align: center;
 }
 
 header h1 {
     font-family: var(--fonte-destaque);
-    font-size: 4.5em;
-    padding: 20px;
+    font-size: 12vw;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header p {
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
 }
 
 header a {
     color: white;
     text-decoration: none;
-    font-size: 1.2em;
 }
 
 header a:hover {
@@ -40,27 +40,30 @@ header a:hover {
 
 main {
     font-family: var(--fonte-padrao);
-    font-size: 2em;
-    min-width: 300px;
+    font-size: 4vw;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vw;
 }
 
 .caixa01 {
     background-color: white;
     color: black;
-    padding: 120px 50px;
 }
 
 .caixa02 {
     background-size: cover;
     background-attachment: fixed;
-    padding: 120px 50px;
     box-shadow: inset 0px 0px 9px 4px rgba(0, 0, 0, 0.493);
 }
 
 .caixa02 p {
     background-color: rgba(0, 0, 0, 0.562);
     color: white;
-    width: 380px;
+    display: inline-block;
     padding: 10px;
     text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.507);
 }
